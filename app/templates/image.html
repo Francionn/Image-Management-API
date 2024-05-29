@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Post</title>
+</head>
+<body>
+    <h1>Image Post</h1>
+    <img src="{{ post.image }}" alt="Image">
+    <p>Descrição: {{ post.descrip }}</p>
+    <p>Horário da postagem: {{ post.action_time }}</p>
+    <p><a href="/gallery/{{ post.id }}">Voltar para a galeria</a></p>
+</body>
+</html>
